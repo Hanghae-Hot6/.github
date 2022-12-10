@@ -35,7 +35,7 @@
 
 ## ⚙️ 서비스 아키텍처
 
-![서비스아키텍쳐ver_2](https://user-images.githubusercontent.com/113868313/203928554-51132feb-8af7-4d71-9a89-394840b51b5b.png)
+![서비스아키텍쳐ver 1](https://user-images.githubusercontent.com/113868313/206831504-25031372-7de6-41eb-8003-9e4d4659abef.png)
 
 <br>
 
