@@ -269,7 +269,7 @@ https://user-images.githubusercontent.com/113868313/206861489-23a89d5d-40fb-4c07
 <details>
 <summary> <h4>모임 참석 인원 다 찼을때 참석 하기 버튼을 누르면 null이 alert 으로 출력</h4></summary>
 <div markdown="1">   
-     인원 다 찼을때 post요청에 대한 response를 error로 보내주셨는데 해당 response를 data로 잡고 있었음 back에서 error -> data로 보내주심
+     인원 다 찼을때 post요청에 대한 response를 error로 보내주셨는데 해당 response를 data로 잡고 있었음 back에서 error -> data로 보내주심<br>
 <img src="https://user-images.githubusercontent.com/113868313/206859217-8d4bf659-b32b-49fd-b6c4-2896d7cbe2c2.png" />
 </div>
   
@@ -278,7 +278,7 @@ https://user-images.githubusercontent.com/113868313/206861489-23a89d5d-40fb-4c07
 <details>
 <summary> <h4>클럽 썸네일 이미지가 null 이면 엑박이 뜬다.</h4></summary>
 <div markdown="1">   
-    프론트/백에서 썸네일이미지가 null 일때 디폴트 썸네일 넣어주어 썸네일 이미지를 넣지 않은 모임도 기본 이미지를 심어주었다.
+    프론트/백에서 썸네일이미지가 null 일때 디폴트 썸네일 넣어주어 썸네일 이미지를 넣지 않은 모임도 기본 이미지를 심어주었다.<br>
 <img src="https://user-images.githubusercontent.com/113868313/206859223-00445627-ae65-4fdb-9a41-680c834aae31.png" />
 </div>
    
