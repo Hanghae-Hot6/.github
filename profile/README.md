@@ -232,7 +232,7 @@
 <details>
 <summary><h4>비밀번호 수정 시 비밀번호 확인 일치해도 안 됨 </h4></summary>
 <div markdown="1">   
-    3
+   임시 비밀번호를 수정 값으로 확인 하고 있어서 일치 확인이 불가 했었음
  
 </div>
 </details>
