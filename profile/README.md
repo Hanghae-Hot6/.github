@@ -61,6 +61,16 @@
   <img src="https://img.shields.io/badge/React Router-CA4245?style=for-the-badge&logo=React Router&logoColor=white">
   
 <br>
+   <img src="https://img.shields.io/badge/socket.io-010101?style=for-the-badge&logo=socket.io&logoColor=white">
+  <img src="https://img.shields.io/badge/Stomp-353535?style=for-the-badge&logoColor=white">
+  <img src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=Axios&logoColor=white">
+  <img src="https://img.shields.io/badge/Yarn-2C8EBB?style=for-the-badge&logo=Yarn&logoColor=white">
+  <img src="https://img.shields.io/badge/styled-components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white">
+  <img src="https://img.shields.io/badge/GitHub Actions-2088FF?style=for-the-badge&logo=GitHub Actions&logoColor=white">
+  <img src="https://img.shields.io/badge/Amazon S3-569A31?style=for-the-badge&logo=Amazon S3&logoColor=white">
+  <br>
+</div>
+<br>
 
 ## 🛠 백엔드 기술 스택
 
@@ -80,14 +90,7 @@
 
 <br> 
 
-  <img src="https://img.shields.io/badge/socket.io-010101?style=for-the-badge&logo=socket.io&logoColor=white">
-  <img src="https://img.shields.io/badge/Stomp-353535?style=for-the-badge&logoColor=white">
-  <img src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=Axios&logoColor=white">
-  <img src="https://img.shields.io/badge/Yarn-2C8EBB?style=for-the-badge&logo=Yarn&logoColor=white">
-  <img src="https://img.shields.io/badge/styled-components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white">
-  <img src="https://img.shields.io/badge/GitHub Actions-2088FF?style=for-the-badge&logo=GitHub Actions&logoColor=white">
-  <img src="https://img.shields.io/badge/Amazon S3-569A31?style=for-the-badge&logo=Amazon S3&logoColor=white">
-  <br>
+  
   
 
 
@@ -184,22 +187,23 @@
 </div>
 </details>
 <details>
-<summary> Infinite Carousel </summary>
+   <summary> <h4>Infinite Carousel</h4> </summary>
 <div markdown="1">   
-    ### 1. 검색어 자동 완성 API call 1/8로 최소화
+   
+### Infinite Carousel
    
 |구분|설명|
 |---|---|
-|문제<br>상황|빠르게 많은 텍스트를 input창에 입력하면<br>자동완성 API로 받아오는 응답값에 블링킹 현상이 발생|
-|문제원인|예를 들어 ‘고양이’이라는 단어를 입력하는데<br>api call이 onChange마다 일어나서 16번이 호출이 되었습니다.|
-|문제해결|사용자가 타이핑을 할 때마다 API를 호출하게 되면 짧은 시간 동안 너무 많은 API를 호출하게 되고 이는 네트워크 트래픽 증가로 인해 서버 부하가 발생할 수 있습니다. 검색 성능을 향상 시키기 위해 커스텀 훅 useDebounce를 만들어서 적용했습니다. <br> setTimeout으로 마지막 이벤트 발생 이후 350ms 동안 추가 이벤트가 발생하지 않을 경우 debounce 콜백 함수 실행하도록 코드를 작성했습니다. 이를 통해 타이핑을 할 때마다 axios 통신이 발생하는 것을 방지할 수 있었습니다.|
-|해결결과|예를 들어 ‘고양이’이라는 단어를 입력했을 때 네트워크 트래픽을 보면 onChange로는 api call이 16번 일어났다면, useDebounce를 적용했을 때 api call이 2번으로 줄어들었습니다. 이로써, 네트워크 트래픽량도 1/8로 감소됨을 확인할 수 있었습니다. |
+|문제<br>상황|맨 끝 배너에서 첫 번째 배너로 넘어갈 때 자연스럽게 넘어가지 않고 역재생 되는 듯한 애니메이션 발생|
+|문제원인|transition + 양 끝 이미지에 추가적인 이미지가 없기 때문에 처음으로 돌아감 때문에 역재생 애니메이션 발생|
+|문제해결|배너 양 끝에 데이터를 복사해 주고 끝 배너에서 첫 번째 배너로 넘어갈 때 transition을 없애줌|
+|해결결과|해당 하는 이미지의 개수만큼 배너 이벤트가 이루어 지기 때문에 자연스럽게 넘어가는 애니메이션이 생김 |
 
-##### Debounce 적용 전/후
+##### Infinite Carousel 적용 전/후
    
 |적용 전|적용 후|
 |---|---|
-|![debounce적용전_네트워크 트래픽](https://user-images.githubusercontent.com/72599761/193569214-0ebc9139-0fb2-4ad7-8c3c-8ecf8d0487b8.gif)|![debounce적용후_네트워크 트래픽](https://user-images.githubusercontent.com/72599761/193569257-4cf4a103-64d7-4b26-87e3-1c8cf2765f47.gif)|
+|![Infinite Carousel적용 전](https://user-images.githubusercontent.com/72599761/193569214-0ebc9139-0fb2-4ad7-8c3c-8ecf8d0487b8.gif)|![Infinite Carousel적용 후](https://user-images.githubusercontent.com/72599761/193569257-4cf4a103-64d7-4b26-87e3-1c8cf2765f47.gif)|
 
 </div>
 </details>
