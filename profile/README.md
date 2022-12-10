@@ -201,9 +201,18 @@
 
 ##### Infinite Carousel 적용 전/후
    
-|적용 전|적용 후|
-|---|---|
-|![Infinite Carousel적용 전](https://user-images.githubusercontent.com/72599761/193569214-0ebc9139-0fb2-4ad7-8c3c-8ecf8d0487b8.gif)|![Infinite Carousel적용 후](https://user-images.githubusercontent.com/72599761/193569257-4cf4a103-64d7-4b26-87e3-1c8cf2765f47.gif)|
+### 적용 전
+
+
+https://user-images.githubusercontent.com/113868313/206861600-dee7da77-110c-43d5-bef1-409408101e42.mp4
+
+
+### 적용 후
+https://user-images.githubusercontent.com/113868313/206861489-23a89d5d-40fb-4c07-94c7-0ddf7797039c.mp4
+
+
+
+
 
 </div>
 </details>
@@ -257,10 +266,10 @@
 <details>
 <summary><h4>모임개설 할 때 스페이스바만 눌러서 모임개설이 됨</h4></summary>
 <div markdown="1">   
-   - 프론트
+   프론트
     서버로 input에 들어온 값을 보내기 전에 trim(’ ’)을 이용해 빈 값만 있는 경우를 걸러낸다
-    
-   - 백엔드
+    <br>
+   백엔드
     개설시 받아오는 requestDto에 필수로 요구하는 입력값은 NotBlank 어노테이션을 달아놓아
     필수로 요구하는 입력값은 입력하지 않으면 400에러가 발생하도록 변경
 </div>
@@ -287,13 +296,13 @@
     - 반응형 도입 — 모바일ver --완료
     - 보안 강화 — https -- 완료
     - infinite carousel -- 완료
-    - infinite scroll — 모바일ver
-    - 과거 채팅 무한 스크롤로 불러오기
+    - infinite scroll — 모바일ver -- 완료
+    - 과거 채팅 무한 스크롤로 불러오기 -- 완료
+    - 후기 기능 -- 완료
+    - api instance -- 완료
     - 검색, 좋아요등 서버에 부하가 올 수 있는 api call 최적화
     - 이미지 용량 최적화
     - 채팅에서 이미지 전송 기능 추가
-    - 후기 기능 -- 완료
-    - api instance -- 완료
     
 </div>
 </details>
