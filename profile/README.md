@@ -60,7 +60,7 @@
   <img src="https://img.shields.io/badge/React Query-FF4154?style=for-the-badge&logo=React Query&logoColor=white">
   <img src="https://img.shields.io/badge/React Router-CA4245?style=for-the-badge&logo=React Router&logoColor=white">
   
-  <br>
+<br>
 
 ## 🛠 백엔드 기술 스택
 
