@@ -234,7 +234,10 @@
 
 ### 적용 전
 
-https://user-images.githubusercontent.com/113868313/206861600-dee7da77-110c-43d5-bef1-409408101e42.mp4
+
+https://user-images.githubusercontent.com/113868313/207054968-dbb51926-79f5-4ae9-b9c3-3a5c242b5b5e.mp4
+
+
 
 ### 적용 후
 
